@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { Navigation } from './Components/Navigation/Navigation'
 import { store } from './Components/store/store'
 import { Provider } from 'react-redux'
+import { Footer } from './Components/Footer/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Navigation />
       </Provider>
     </BrowserRouter>
+    <Footer />
   </React.StrictMode>,
 )
