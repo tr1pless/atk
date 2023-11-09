@@ -1,0 +1,76 @@
+.navigation {
+  position: absolute;
+  height: min-content;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  font-family: 'Baloo Bhai';
+}
+.navBackground {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: rgba(57, 44, 44, 0.4);
+  box-shadow: 0px -20px 4px 0px rgba(0, 0, 0, 0.25);
+  filter: blur(10px);
+}
+.navWrp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.linksList {
+  margin: 0;
+}
+
+.line {
+  position: relative;
+  z-index: 2;
+  width: 95%;
+  height: 4px;
+  margin: auto auto 5px auto;
+  background: #e1d48e;
+}
+
+.logo {
+  color: #f4fbf4;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 2;
+  position: relative;
+  margin: 0 90px 0 130px;
+}
+
+.link {
+  position: relative;
+  z-index: 2;
+  font-size: 22px;
+  align-self: center;
+  margin-right: 16px;
+  transition: 0.2s;
+  text-transform: uppercase;
+}
+
+.link:hover {
+}
+.activeLink {
+  font-size: 26px;
+}
+
+.langBtn {
+  font-family: 'Baloo Bhai';
+  font-size: 20px;
+  z-index: 2;
+  background: none;
+  border: none;
+  transition: 0.3s;
+  margin: auto 130px auto auto;
+}
+
+.langBtn:hover {
+  transform: scale(1.2);
+}

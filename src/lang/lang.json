@@ -1,0 +1,35 @@
+{
+  "lat": {
+    "nav": {
+      "1": "SAKUMS",
+      "2": "PAR MUMS",
+      "3": "AKTUALI",
+      "4": "PAKALPOJUMI",
+      "5": "CENAS",
+      "6": "KONTAKTI",
+      "7": "Pieņemšanas punkti"
+    }
+  },
+  "Rus": {
+    "nav": {
+      "1": "ГЛАВНАЯ",
+      "2": "О НАС",
+      "3": "АКТУАЛЬНОЕ",
+      "4": "УСЛУГИ",
+      "5": "ЦЕНЫ",
+      "6": "КОНТАКТЫ",
+      "7": "ПУНКТЫ ПРИЕМА"
+    }
+  },
+  "Eng": {
+    "nav": {
+      "1": "MAIN",
+      "2": "ABOUT US",
+      "3": "ACTUAL",
+      "4": "SERVICES",
+      "5": "PRICELIST",
+      "6": "CONTACTS",
+      "7": "Acceptance points"
+    }
+  }
+}
