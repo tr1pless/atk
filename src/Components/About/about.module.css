@@ -1,0 +1,7 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../assets/aboutBg.jpg);
+}

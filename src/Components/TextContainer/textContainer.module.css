@@ -1,0 +1,18 @@
+.textContainer {
+  border: 2px solid rgba(247, 247, 247, 0.34);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 30, 30, 0.8) 0%,
+    rgba(24, 21, 21, 0.8) 100%
+  );
+  box-shadow: 0px 4px 34px 23px rgba(0, 0, 0, 0.24);
+  width: 80%;
+  height: max-content;
+}
+
+fieldset {
+  border: 1px solid #ffffff;
+  height: 100%;
+  max-width: 100%;
+  margin: 52px 36px 40px;
+}

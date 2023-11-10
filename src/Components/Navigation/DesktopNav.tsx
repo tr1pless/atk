@@ -11,7 +11,7 @@ export const DesktopNav = () => {
   const lang = useSelector((state: RootState) => state.counter.value)
   const btnArr = ['Rus', 'Eng', 'Lat']
   const data = Object.entries(langJson)
-  const currentLangData = data[lang]
+  const currentLangData: any = data[lang]
   return (
     <div className={s.navigation}>
       <div className={s.navBackground}></div>
