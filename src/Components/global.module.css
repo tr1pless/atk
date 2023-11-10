@@ -25,3 +25,18 @@
 .mAuto {
   margin: 0 auto;
 }
+
+.triangleSpan {
+  background-image: url(../assets/textSpan.png);
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 5px 0 5px auto;
+}
+
+.multiTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}

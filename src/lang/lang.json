@@ -11,14 +11,16 @@
     },
     "about": {
       "title1": "Par Mums",
-      "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
+      "text1": [
+        "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem."
+      ],
       "title2": "Kāpēc izvēlēties sadarbību ar mums?",
-      "text2": {
-        "1": "Saņemsiet apmaksu par produkciju norunātā laikā.",
-        "2": "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
-        "3": "Esam dinamiski jautājumos par jūsu saistību izpildi.",
-        "4": "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
-      }
+      "text2": [
+        "Saņemsiet apmaksu par produkciju norunātā laikā.",
+        "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
+        "Esam dinamiski jautājumos par jūsu saistību izpildi.",
+        "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+      ]
     }
   },
   "Rus": {
@@ -35,12 +37,12 @@
       "title1": "Par Mums",
       "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
       "title2": "Kāpēc izvēlēties sadarbību ar mums?",
-      "text2": {
-        "1": "Saņemsiet apmaksu par produkciju norunātā laikā.",
-        "2": "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
-        "3": "Esam dinamiski jautājumos par jūsu saistību izpildi.",
-        "4": "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
-      }
+      "text2": [
+        "Saņemsiet apmaksu par produkciju norunātā laikā.",
+        "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
+        "Esam dinamiski jautājumos par jūsu saistību izpildi.",
+        "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+      ]
     }
   },
   "Eng": {
@@ -58,11 +60,11 @@
     "title1": "Par Mums",
     "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
     "title2": "Kāpēc izvēlēties sadarbību ar mums?",
-    "text2": {
-      "1": "Saņemsiet apmaksu par produkciju norunātā laikā.",
-      "2": "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
-      "3": "Esam dinamiski jautājumos par jūsu saistību izpildi.",
-      "4": "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
-    }
+    "text2": [
+      "Saņemsiet apmaksu par produkciju norunātā laikā.",
+      "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
+      "Esam dinamiski jautājumos par jūsu saistību izpildi.",
+      "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+    ]
   }
 }
