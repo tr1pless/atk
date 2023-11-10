@@ -1,2 +1,39 @@
 .footerContainer {
+  height: 400px;
+  background-image: url(../../assets/footer.svg);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px -12px 42px 20px rgb(0 0 0 / 77%);
+  font-family: 'Russo One', sans-serif;
+}
+
+.footerLinks {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}
+
+.listLinks {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footerContactsList {
+  margin: 0 50px 0 0;
+}
+.footerContacts {
+  list-style: none;
+  font-size: 28px;
+  text-align: end;
+}
+
+.certImg {
+  width: 400px;
+  height: 200px;
 }

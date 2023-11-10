@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <Provider store={store}>
         <Navigation />
+        <Footer />
       </Provider>
     </BrowserRouter>
-    <Footer />
   </React.StrictMode>,
 )

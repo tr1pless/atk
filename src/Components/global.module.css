@@ -15,4 +15,13 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+}
+
+.m50 {
+  margin-left: 50px;
+}
+
+.mAuto {
+  margin: 0 auto;
 }
