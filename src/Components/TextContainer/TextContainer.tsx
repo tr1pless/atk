@@ -23,7 +23,9 @@ export const TextContainer = ({
           >
             {title}
           </legend>
-          <div className={`${g.white}`}>{children}</div>
+          <div className={`${g.white} ${g.textContainerChildsWrp}`}>
+            {children}
+          </div>
         </fieldset>
       </div>
     </>

@@ -11,3 +11,7 @@
 .background {
   background-image: url(../../assets/mainBg.jpg);
 }
+
+.mainPageBtn {
+  margin: 100px auto;
+}

@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux'
 import langJson from '../../lang/lang.json'
 import { RootState } from '../store/store'
 import { nanoid } from 'nanoid'
+import { PageButton } from '../PageButton/PageButton'
 
 export const About = () => {
   const lang = useSelector((state: RootState) => state.counter.value)
@@ -19,7 +20,7 @@ export const About = () => {
       <TextContainer
         marginValue={5}
         title={title}
-        children={<p>{text}</p>}
+        children={<p className={g.TextContainerText}>{text}</p>}
         fontSize={70}
       />
       <TextContainer
@@ -32,13 +33,17 @@ export const About = () => {
               return (
                 <div className={g.multiTextContainer} key={nanoid()}>
                   <span className={g.triangleSpan}></span>
-                  <p>{item}</p>
+                  <p className={s.aboutListItem}>{item}</p>
                 </div>
               )
             })}
           </div>
         }
       />
+      <div className={g.globalBtnsWrp}>
+        <PageButton className={g.backButton} rev={true} to={'/'} nav={1} />
+        <PageButton className={g.nextButton} to={'/actual'} nav={3} />
+      </div>
     </div>
   )
 }

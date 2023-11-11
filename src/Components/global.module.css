@@ -31,12 +31,38 @@
   width: 24px;
   height: 24px;
   display: block;
-  margin: 5px 0 5px auto;
+  margin: 5px 5px 5px 5px;
 }
 
 .multiTextContainer {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-direction: row;
+  margin: 10px 0 10px;
+  font-size: 28px;
+}
+
+.TextContainerText {
+  font-size: 24px;
+}
+
+.textContainerChildsWrp {
+  margin: 30px 100px;
+  text-align: start;
+}
+
+.globalBtnsWrp {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 50px 0;
+  width: 90%;
+}
+
+.backButton {
+  flex-direction: row-reverse;
+}
+
+.nextButton {
   flex-direction: row;
 }
