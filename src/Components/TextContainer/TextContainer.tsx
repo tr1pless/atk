@@ -3,9 +3,9 @@ import s from './textContainer.module.css'
 
 interface Props {
   title: string
-  marginValue: number
+  marginValue: string
   children: React.ReactNode
-  fontSize: number
+  fontSize?: number
 }
 export const TextContainer = ({
   title,
@@ -18,8 +18,8 @@ export const TextContainer = ({
       <div className={s.textContainer}>
         <fieldset>
           <legend
-            style={{ marginLeft: `${marginValue}%`, fontSize: `${fontSize}px` }}
-            className={`${s.containerTitle} ${g.yellow}`}
+            style={{ margin: `${marginValue}`, fontSize: `${fontSize}px` }}
+            className={`${s.containerTitle} ${g.yellow} ${g.pagesTitle}`}
           >
             {title}
           </legend>

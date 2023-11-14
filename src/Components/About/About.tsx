@@ -18,14 +18,14 @@ export const About = () => {
   return (
     <div className={`${g.background} ${s.aboutContainer}`}>
       <TextContainer
-        marginValue={5}
+        marginValue={'0 auto 0 5%'}
         title={title}
         children={<p className={g.TextContainerText}>{text}</p>}
         fontSize={70}
       />
       <TextContainer
         fontSize={45}
-        marginValue={5}
+        marginValue={'0 auto 0 5%'}
         title={currentLangData[1].about.title2}
         children={
           <div>
@@ -33,7 +33,7 @@ export const About = () => {
               return (
                 <div className={g.multiTextContainer} key={nanoid()}>
                   <span className={g.triangleSpan}></span>
-                  <p className={s.aboutListItem}>{item}</p>
+                  <p className={g.innerListItem}>{item}</p>
                 </div>
               )
             })}

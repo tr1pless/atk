@@ -1,0 +1,53 @@
+.contactsChildContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.AAcontainer {
+  background: rgba(252, 251, 250, 0.01);
+  box-shadow: 0px 0px 106px 0px rgba(0, 0, 0, 0.35) inset;
+  margin-bottom: 20px;
+}
+
+.stateContainer {
+  margin: 0;
+}
+
+.companyContainer {
+  margin: 0;
+}
+
+.contactsList {
+}
+
+.ccText {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.AAnames {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+span {
+  margin: 0;
+  padding: 10px;
+}
+p {
+  margin: 0;
+}

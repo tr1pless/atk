@@ -1,0 +1,23 @@
+.servicesContainer {
+  background-image: url(../../assets/services.jpg);
+}
+
+.serviceTitle {
+  margin: 140px auto 0 10%;
+}
+
+.servicesItemList {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 70px 70px 70px 70px 70px;
+  gap: 40px 8px;
+  grid-template-areas:
+    '. . .'
+    '. . .'
+    '. . .'
+    '. . .'
+    '. . .';
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+}
