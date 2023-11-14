@@ -11,7 +11,7 @@ export const MainPage = () => {
           realizācijai, un noteikti atradīsim kompromisu lai strādātu ilgstoši
           un produktīvi.
         </p>
-        <PageButton to='/about' nav={2} />
+        <PageButton className={s.mainPageBtn} to='/about' nav={2} />
       </div>
     </div>
   )

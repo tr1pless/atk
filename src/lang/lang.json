@@ -8,6 +8,80 @@
       "5": "CENAS",
       "6": "KONTAKTI",
       "7": "Pieņemšanas punkti"
+    },
+    "about": {
+      "title1": "Par Mums",
+      "text1": [
+        "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem."
+      ],
+      "title2": "Kāpēc izvēlēties sadarbību ar mums?",
+      "text2": [
+        "Saņemsiet apmaksu par produkciju norunātā laikā.",
+        "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
+        "Esam dinamiski jautājumos par jūsu saistību izpildi.",
+        "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+      ]
+    },
+    "services": {
+      "pageTitle": "Pakalpojumi",
+      "title1": "Piedāvājam",
+      "text1": [
+        "Ražas izvešanu no Jūsu noliktavas",
+        "Transporta pakalpojumus",
+        "Līgumu slēgšanu pirms un pēc ražas",
+        "Graudu, rapšu pirmapstrādes pakalpojumus mūsu sadarbības partneru noliktavā",
+        "U.c"
+      ],
+      "title2": "Pērkam/Pārdodam",
+      "text2": [
+        "Kviešus",
+        "Miežus",
+        "Rudzus",
+        "Auzas",
+        "Tritikāli",
+        "Griķus",
+        "Ķimenes",
+        "Rapsi",
+        "Dzeltenos zirņus",
+        "Lauka pupas",
+        "Pelēkos zirņus (lielos un mazos)",
+        "Rapša raušus un spraukumus",
+        "Kukurūzu(graudus)",
+        "Minerālmēslus",
+        "U.c."
+      ]
+    },
+    "contacts": {
+      "pageTitle": "Mūsu kontakti",
+      "andrejs": {
+        "name": "Andrejs Samohvalovs",
+        "mail": "andrejs@atk.lv (LV,RUS,ESP,DE)",
+        "phone": "v.loceklis, tirdzniecības vadītājs +371 29256981"
+      },
+      "aigars": {
+        "name": "Aigars Samohvalovs",
+        "mail": "roy17@inbox.lv, samohvalovsaigars88@gmail.com (LV,RUS,ENG)",
+        "phone": "Tirdzniecības konsultants +371 29985545"
+      },
+      "buh": {
+        "name": "Inese Zeime",
+        "mail": "ipbfinanses@gmail.com",
+        "phone": "+371 26661123"
+      },
+      "office": {
+        "adress": "Adrese: Kauliņu komplekss, Augstkalnes pagasts, Dobeles novads.",
+        "mail": "info@atk.lv",
+        "phone": "tālrunis +371 63081234, fax +371 63081234"
+      },
+      "rek": {
+        "sia": "SIA AGROTIRDZNIECĪBAS KOMPĀNIJA",
+        "reg": "Reģ.nr. 40003302398",
+        "pvn": "PVN.nr. LV40003302398 ",
+        "adress": "Āres, Augstkalnes pagasts, Dobeles novads, LV-3709",
+        "bank": "Banka AS SEB banka’",
+        "iban": "Konta numurs: LV84UNLA0050013584189",
+        "mail": "Epasts: info@atk.lv, samohvalovsaigars88@gmail.com"
+      }
     }
   },
   "Rus": {
@@ -19,6 +93,17 @@
       "5": "ЦЕНЫ",
       "6": "КОНТАКТЫ",
       "7": "ПУНКТЫ ПРИЕМА"
+    },
+    "about": {
+      "title1": "Par Mums",
+      "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
+      "title2": "Kāpēc izvēlēties sadarbību ar mums?",
+      "text2": [
+        "Saņemsiet apmaksu par produkciju norunātā laikā.",
+        "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
+        "Esam dinamiski jautājumos par jūsu saistību izpildi.",
+        "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+      ]
     }
   },
   "Eng": {
@@ -31,5 +116,16 @@
       "6": "CONTACTS",
       "7": "Acceptance points"
     }
+  },
+  "about": {
+    "title1": "Par Mums",
+    "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
+    "title2": "Kāpēc izvēlēties sadarbību ar mums?",
+    "text2": [
+      "Saņemsiet apmaksu par produkciju norunātā laikā.",
+      "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
+      "Esam dinamiski jautājumos par jūsu saistību izpildi.",
+      "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+    ]
   }
 }

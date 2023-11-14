@@ -8,7 +8,7 @@ import langJson from '../../lang/lang.json'
 export const Footer = () => {
   const lang = useSelector((state: RootState) => state.counter.value)
   const data = Object.entries(langJson)
-  const currentLangData = data[lang]
+  const currentLangData: any = data[lang]
 
   return (
     <footer className={s.footerContainer}>
