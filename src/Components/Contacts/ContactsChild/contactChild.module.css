@@ -8,24 +8,25 @@
 .AAcontainer {
   background: rgba(252, 251, 250, 0.01);
   box-shadow: 0px 0px 106px 0px rgba(0, 0, 0, 0.35) inset;
-  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #333325;
 }
 
 .stateContainer {
+  max-width: 48%;
   margin: 0;
 }
 
 .companyContainer {
-  margin: 0;
-}
+  max-width: 48%;
 
-.contactsList {
+  margin: 0;
 }
 
 .ccText {
   text-transform: uppercase;
   color: #fff;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -38,7 +39,7 @@
 
 .AAnames {
   color: #fff;
-  font-size: 36px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -50,4 +51,19 @@ span {
 }
 p {
   margin: 0;
+}
+
+.textWithoutSpan {
+  margin: 15px 70px 0 0;
+}
+
+.ccTitles {
+  margin: 20px auto 20px 0;
+  font-size: 32px;
+}
+.textWrp {
+  margin-left: 15px;
+}
+.rekWrp {
+  margin-left: 85px;
 }

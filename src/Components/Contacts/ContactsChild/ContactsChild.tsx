@@ -19,7 +19,7 @@ export const ConctactChild = () => {
     <div className={s.contactsChildContainer}>
       <div className={s.stateContainer}>
         <div className={s.AAcontainer}>
-          <div className={`${s.ccText} ${s.AAnames}`}>
+          <div className={`${s.ccText} ${s.AAnames} `}>
             <span>{PersonSvg}</span>
             <p>{andrejs.name}</p>
           </div>
@@ -47,57 +47,77 @@ export const ConctactChild = () => {
           </div>
         </div>
         <div className={s.contactsList}>
-          <div className={s.ccText}>
-            <span>{PersonSvg}</span>
-            <p>{buh.name}</p>
+          <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+            <h2
+              style={{ paddingLeft: '10px' }}
+              className={`${g.yellow} ${s.ccTitles}`}
+            >
+              {buh.title}
+            </h2>
           </div>
-          <div className={s.ccText}>
-            <span>{PhoneSvg}</span>
-            <p>{buh.phone}</p>
-          </div>
-          <div className={s.ccText}>
-            <span>{MailSvg}</span>
-            <p>{buh.mail}</p>
+          <div style={{ paddingLeft: '40px' }} className={`${s.textWrp} `}>
+            <div className={s.ccText}>
+              <span>{PersonSvg}</span>
+              <p>{buh.name}</p>
+            </div>
+            <div className={s.ccText}>
+              <span>{PhoneSvg}</span>
+              <p>{buh.phone}</p>
+            </div>
+            <div className={s.ccText}>
+              <span>{MailSvg}</span>
+              <p>{buh.mail}</p>
+            </div>
           </div>
         </div>
       </div>
       <div className={s.companyContainer}>
         <div className={s.contactsList}>
-          <div className={s.ccText}>
-            <span>{LocationSvg}</span>
-            <p>{office.adress}</p>
+          <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+            <h2 className={`${g.yellow} ${s.ccTitles}`}>{office.title}</h2>
           </div>
-          <div className={s.ccText}>
-            <span>{PhoneSvg}</span>
-            <p>{office.phone}</p>
-          </div>
-          <div className={s.ccText}>
-            <span>{MailSvg}</span>
-            <p>{office.mail}</p>
+          <div className={`${s.textWrp} `}>
+            <div className={s.ccText}>
+              <span>{LocationSvg}</span>
+              <p>{office.adress}</p>
+            </div>
+            <div className={s.ccText}>
+              <span>{PhoneSvg}</span>
+              <p>{office.phone}</p>
+            </div>
+            <div className={s.ccText}>
+              <span>{MailSvg}</span>
+              <p>{office.mail}</p>
+            </div>
           </div>
         </div>
         <div className={s.contactsList}>
-          <div className={`${s.ccText} ${s.AAnames}`}>
-            <p>{rek.sia}</p>
+          <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+            <h2 className={`${g.yellow} ${s.ccTitles}`}>{rek.title}</h2>
           </div>
-          <div className={s.ccText}>
-            <p>{rek.reg}</p>
-          </div>
-          <div className={s.ccText}>
-            <p>{rek.pvn}</p>
-          </div>
-          <div className={s.ccText}>
-            <span>{LocationSvg}</span>
-            <p>{rek.adress}</p>
-          </div>
-          <div className={s.ccText}>
-            <p>{rek.bank}</p>
-          </div>
-          <div className={s.ccText}>
-            <p>{rek.iban}</p>
-          </div>
-          <div className={s.ccText}>
-            <p>{rek.mail}</p>
+          <div className={`${s.textWrp} ${s.rekWrp}`}>
+            <div className={`${s.ccText} ${s.AAnames} ${s.textWithoutSpan}`}>
+              <p>{rek.sia}</p>
+            </div>
+            <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+              <p>{rek.reg}</p>
+            </div>
+            <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+              <p>{rek.pvn}</p>
+            </div>
+            <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+              {/* <span>{LocationSvg}</span> */}
+              <p>{rek.adress}</p>
+            </div>
+            <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+              <p>{rek.bank}</p>
+            </div>
+            <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+              <p>{rek.iban}</p>
+            </div>
+            <div className={`${s.ccText} ${s.textWithoutSpan}`}>
+              <p>{rek.mail}</p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import g from '../global.module.css'
+import s from './contacts.module.css'
 import { Form } from './Form/Form'
 import { TextContainer } from '../TextContainer/TextContainer'
 import { useSelector } from 'react-redux'
@@ -13,7 +14,7 @@ export const Contacts = () => {
   const title = currentLangData[1].contacts.pageTitle
 
   return (
-    <div className={g.background}>
+    <div className={`${g.background} ${s.contactsContainer}`}>
       <TextContainer
         title={title}
         fontSize={80}
