@@ -93,6 +93,18 @@
       "mail": "E-pasts",
       "text": "Jūsu ziņa",
       "button": "Nosūtīt"
+    },
+    "pp": {
+      "pageTitle": "Pieņemšanas punkti",
+      "sia": "SIA A-HARVEST",
+      "text": {
+        "1": "Kauliņu komplekss",
+        "2": "Augstkalnes pag.",
+        "3": "Dobeles nov.",
+        "4": "56.410189, 23.356588"
+      },
+      "phone1": "+371 28742613",
+      "phone2": "+371 29985545"
     }
   },
   "Rus": {

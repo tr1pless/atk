@@ -28,6 +28,8 @@
 
 .triangleSpan {
   background-image: url(../assets/textSpan.png);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 24px;
   height: 24px;
   display: block;

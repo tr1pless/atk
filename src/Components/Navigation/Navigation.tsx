@@ -6,6 +6,7 @@ import { MainPage } from '../MainPage/MainPage'
 import { About } from '../About/About'
 import { Services } from '../Services/Services'
 import { Contacts } from '../Contacts/Contacts'
+import { Pp } from '../Pp/Pp'
 
 export const Navigation = () => {
   const [mobile, setMobile] = useState(false)
@@ -19,7 +20,8 @@ export const Navigation = () => {
         <Route path='/services' element={<Services />} />
         {/* <Route path='/pricelist' element={<Pricelist />} /> */}
         <Route path='/contacts' element={<Contacts />} />
-        {/* <Route path='*' element={<Main />} /> */}
+        <Route path='*' element={<MainPage />} />
+        <Route path='/pp' element={<Pp />} />
       </Routes>
     </>
   )

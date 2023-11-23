@@ -1,0 +1,26 @@
+.ppText {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.h2Title,
+.h3Title,
+.ppText {
+  letter-spacing: 1.5px;
+}
+
+.ppWrp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
