@@ -24,3 +24,13 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
+
+.gMap {
+  width: 30vw;
+  min-width: 400px;
+  min-height: 300px;
+}
+
+.ppContainer {
+  background-image: url(../../assets/ppBg.jpg);
+}
