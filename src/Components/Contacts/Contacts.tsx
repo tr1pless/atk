@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux'
 import { RootState } from '../store/store'
 import langJson from '../../lang/lang.json'
 import { ConctactChild } from './ContactsChild/ContactsChild'
+import { PageButton } from '../PageButton/PageButton'
 
 export const Contacts = () => {
   const lang = useSelector((state: RootState) => state.counter.value)
@@ -19,7 +20,20 @@ export const Contacts = () => {
         title={title}
         fontSize={80}
         marginValue={'0 auto 0 60px'}
-        children={<ConctactChild />}
+        children={
+          <>
+            <ConctactChild />
+            <div className={g.globalBtnsWrp}>
+              <PageButton
+                className={g.backButton}
+                rev={true}
+                to={'/prices'}
+                nav={5}
+              />
+              <PageButton className={g.nextButton} to={'/pp'} nav={7} />
+            </div>
+          </>
+        }
       />
       <Form />
     </div>
