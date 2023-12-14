@@ -7,19 +7,14 @@ export const counterSlice = createSlice({
   name: 'counter',
   initialState: {
     value: 0,
-    // width: 0,
   },
   reducers: {
-    // changeWidth: (state, action) => {
-    // state.width = action.payload
-    // },
     language: (state) => {
       if (state.value !== 2) {
         ++state.value
       } else {
         state.value = 0
       }
-      console.log(state.value)
     },
   },
 })

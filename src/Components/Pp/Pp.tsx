@@ -35,7 +35,7 @@ export const Pp = () => {
                 <iframe
                   className={s.gMap}
                   src='https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d70643.16177550518!2d23.354166!3d56.40574!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTbCsDI0JzIwLjciTiAyM8KwMjEnMTUuMCJF!5e0!3m2!1sru!2sus!4v1700755326247!5m2!1sru!2sus'
-                  style={{ border: '0' }}
+                  style={{ filter: 'invert(90%) grayscale(1)', border: '0' }}
                   allowFullScreen={true}
                   loading='lazy'
                   referrerPolicy='no-referrer-when-downgrade'

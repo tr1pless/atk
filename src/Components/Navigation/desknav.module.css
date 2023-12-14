@@ -6,6 +6,16 @@
   width: 100vw;
   font-family: 'Russo One', sans-serif;
 }
+
+.logo {
+  z-index: 2;
+  margin: 0;
+}
+.logoImg {
+  margin: -95px auto -100px 0px;
+  width: 300px;
+  height: 270px;
+}
 .navBackground {
   z-index: 1;
   position: absolute;
@@ -34,17 +44,6 @@
   background: #e1d48e;
 }
 
-.logo {
-  color: #f4fbf4;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  z-index: 2;
-  position: relative;
-  margin: 0 90px 0 130px;
-}
-
 .link {
   position: relative;
   z-index: 2;
@@ -55,8 +54,6 @@
   text-transform: uppercase;
 }
 
-.link:hover {
-}
 .activeLink {
   font-size: 26px;
 }
@@ -68,7 +65,7 @@
   background: none;
   border: none;
   transition: 0.3s;
-  margin: auto 130px auto auto;
+  margin: auto 130px auto 50px;
 }
 
 .langBtn:hover {

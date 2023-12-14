@@ -21,3 +21,29 @@
   font-size: 28px;
   width: 100%;
 }
+
+.linksWrp {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.euronextLink {
+  display: block;
+  width: 320px;
+  height: 100px;
+  background-image: url(../../assets/euronext.png);
+  margin: 0;
+}
+.linkContainer {
+  padding: 5px;
+  border: 3px solid #e1d48e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linksTitle {
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-right: 10px;
+}
