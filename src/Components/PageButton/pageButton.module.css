@@ -9,7 +9,6 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  /* margin: 52px auto 80px 60%; */
 }
 
 .buttonTxt {
@@ -31,5 +30,15 @@
 @media screen and (min-width: 2000px) {
   .buttonTxt {
     font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .buttonTxt {
+    font-size: 28px;
+    margin-right: 0px;
+  }
+  .buttonSvg {
+    width: 38px;
   }
 }

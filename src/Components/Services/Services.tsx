@@ -9,6 +9,8 @@ import { PageButton } from '../PageButton/PageButton'
 
 export const Services = () => {
   const lang = useSelector((state: RootState) => state.counter.value)
+  const mobileData = useSelector((state: RootState) => state.counter.mobileData)
+
   const data = Object.entries(langJson)
   const currentLangData: any = data[lang]
   const servicesTitle = currentLangData[1].services.pageTitle
@@ -25,7 +27,7 @@ export const Services = () => {
         {servicesTitle}
       </h1>
       <TextContainer
-        fontSize={60}
+        fontSize={mobileData ? 44 : 60}
         title={title}
         marginValue={'0 100px 0 auto'}
         children={
@@ -42,9 +44,9 @@ export const Services = () => {
         }
       />
       <TextContainer
-        fontSize={60}
+        fontSize={mobileData ? 40 : 60}
         title={title2}
-        marginValue={'0 100px 0 auto'}
+        marginValue={mobileData ? '0 20px 0 auto' : '0 100px 0 auto'}
         children={
           <>
             <div className={s.servicesItemList}>

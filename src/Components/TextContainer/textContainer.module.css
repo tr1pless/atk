@@ -23,3 +23,23 @@ fieldset {
   padding: 0 10px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 800px) {
+  .textContainer {
+    width: 100vw;
+    margin-top: 80px;
+  }
+  fieldset {
+    border: 3px solid #e1d48e;
+    height: 100%;
+    max-width: 100%;
+    margin: 24px 8px 16px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .textContainer {
+    width: 90vw;
+    margin-top: 120px;
+  }
+}

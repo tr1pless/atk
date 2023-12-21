@@ -67,3 +67,14 @@ p {
 .rekWrp {
   margin-left: 85px;
 }
+
+@media screen and (max-width: 850px) {
+  .ccText {
+  }
+  .contactsChildContainer {
+    flex-direction: column;
+  }
+  .stateContainer {
+    max-width: 100%;
+  }
+}

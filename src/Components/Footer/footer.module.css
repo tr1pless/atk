@@ -37,3 +37,39 @@
   width: 400px;
   height: 200px;
 }
+
+@media screen and (max-width: 870px) {
+  .certImg {
+    display: none;
+  }
+  .footerLinks,
+  .footerContacts {
+    font-size: 18px;
+  }
+  .footerContainer {
+    height: max-content;
+    align-items: flex-start;
+  }
+  .listLinks,
+  .footerContactsList {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width: 870px) and (max-width: 1400px) {
+  .certImg {
+    width: 300px;
+    height: 170px;
+  }
+  .listLinks,
+  .footerContactsList {
+    margin: 20px auto;
+  }
+  .footerContainer {
+    height: max-content;
+  }
+  .footerLinks,
+  .footerContacts {
+    font-size: 20px;
+  }
+}

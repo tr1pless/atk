@@ -1,4 +1,5 @@
 .navigation {
+  overflow: hidden;
   position: absolute;
   height: min-content;
   left: 0;
@@ -45,6 +46,7 @@
 }
 
 .link {
+  white-space: nowrap;
   position: relative;
   z-index: 2;
   font-size: 22px;
@@ -66,8 +68,45 @@
   border: none;
   transition: 0.3s;
   margin: auto 130px auto 50px;
+  text-transform: uppercase;
 }
 
 .langBtn:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .link {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .activeLink {
+    font-size: 16px;
+  }
+
+  .logoImg {
+    margin: -95px -75px -100px -50px;
+  }
+  .langBtn {
+    margin: auto auto auto 16px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
+  .link {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  .activeLink {
+    font-size: 22px;
+  }
+
+  .logoImg {
+    margin: -95px -75px -100px -50px;
+  }
+  .langBtn {
+    margin: auto auto auto 12px;
+    font-size: 20px;
+  }
 }

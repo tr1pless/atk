@@ -7,16 +7,24 @@ import { About } from '../About/About'
 import { Services } from '../Services/Services'
 import { Contacts } from '../Contacts/Contacts'
 import { Pp } from '../Pp/Pp'
+import { useSelector } from 'react-redux'
+import { RootState } from '../store/store'
+import { useDispatch } from 'react-redux'
+import { mobile } from '../store/counterSlice'
 
 export const Navigation = () => {
+  const mobileData = useSelector((state: RootState) => state.counter.mobileData)
+  const dispatch = useDispatch()
+
   const [windowSize, setWindowSize] = useState(getWindowSize())
-  const [mobile, setMobile] = useState(false)
 
   useEffect(() => {
-    if (windowSize.innerWidth < 800) {
-      setMobile(true)
+    if (windowSize.innerWidth < 1000) {
+      dispatch(mobile(true))
+      console.log(windowSize.innerWidth, mobile)
     } else {
-      setMobile(false)
+      dispatch(mobile(false))
+      console.log(windowSize.innerWidth, mobile)
     }
   }, [windowSize.innerWidth])
 
@@ -38,7 +46,7 @@ export const Navigation = () => {
 
   return (
     <>
-      {mobile ? <MobileNav /> : <DesktopNav />}
+      {mobileData ? <MobileNav /> : <DesktopNav />}
       <Routes>
         <Route path='/' element={<MainPage />} />
         <Route path='/main' element={<MainPage />} />
