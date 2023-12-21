@@ -9,6 +9,8 @@ import { PageButton } from '../PageButton/PageButton'
 
 export const Services = () => {
   const lang = useSelector((state: RootState) => state.counter.value)
+  const mobileData = useSelector((state: RootState) => state.counter.mobileData)
+
   const data = Object.entries(langJson)
   const currentLangData: any = data[lang]
   const servicesTitle = currentLangData[1].services.pageTitle
@@ -16,6 +18,8 @@ export const Services = () => {
   const title2 = currentLangData[1].services.title2
   const text = currentLangData[1].services.text1
   const text2 = currentLangData[1].services.text2
+  const mw = currentLangData[1].services.mw
+  const rs = currentLangData[1].services.rs
 
   return (
     <div className={`${g.background} ${s.servicesContainer}`}>
@@ -23,7 +27,7 @@ export const Services = () => {
         {servicesTitle}
       </h1>
       <TextContainer
-        fontSize={60}
+        fontSize={mobileData ? 44 : 60}
         title={title}
         marginValue={'0 100px 0 auto'}
         children={
@@ -40,19 +44,39 @@ export const Services = () => {
         }
       />
       <TextContainer
-        fontSize={60}
+        fontSize={mobileData ? 40 : 60}
         title={title2}
-        marginValue={'0 100px 0 auto'}
+        marginValue={mobileData ? '0 20px 0 auto' : '0 100px 0 auto'}
         children={
-          <div className={s.servicesItemList}>
-            {text2.map((item: string) => {
-              return (
-                <p key={nanoid()} className={`${s.innerListItem} `}>
-                  {item}
-                </p>
-              )
-            })}
-          </div>
+          <>
+            <div className={s.servicesItemList}>
+              {text2.map((item: string) => {
+                return (
+                  <p key={nanoid()} className={`${s.innerListItem} `}>
+                    {item}
+                  </p>
+                )
+              })}
+            </div>
+            <div className={s.linksWrp}>
+              <div className={s.linkContainer}>
+                <h2 className={s.linksTitle}>{mw} : </h2>
+                <a
+                  className={s.euronextLink}
+                  target='_blank'
+                  href='https://live.euronext.com/en/product/commodities-futures/EBM-DPAR'
+                ></a>
+              </div>
+              <div className={s.linkContainer}>
+                <h2 className={s.linksTitle}>{rs} : </h2>
+                <a
+                  className={s.euronextLink}
+                  target='_blank'
+                  href='https://live.euronext.com/en/product/commodities-futures/ECO-DPAR'
+                ></a>
+              </div>
+            </div>
+          </>
         }
       />
       <div className={g.globalBtnsWrp}>
@@ -62,7 +86,7 @@ export const Services = () => {
           nav={3}
           to={'/actual'}
         />
-        <PageButton className={g.nextButton} nav={5} to={'/prices'} />
+        <PageButton className={g.nextButton} nav={6} to={'/prices'} />
       </div>
     </div>
   )

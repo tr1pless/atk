@@ -14,6 +14,7 @@ export const About = () => {
   const title = currentLangData[1].about.title1
   const text = currentLangData[1].about.text1
   const text2 = currentLangData[1].about.text2
+  const mobileData = useSelector((state: RootState) => state.counter.mobileData)
 
   return (
     <div className={`${g.background} ${s.aboutContainer}`}>
@@ -21,10 +22,10 @@ export const About = () => {
         marginValue={'0 auto 0 5%'}
         title={title}
         children={<p className={g.TextContainerText}>{text}</p>}
-        fontSize={70}
+        fontSize={mobileData ? 44 : 72}
       />
       <TextContainer
-        fontSize={45}
+        fontSize={mobileData ? 20 : 44}
         marginValue={'0 auto 0 5%'}
         title={currentLangData[1].about.title2}
         children={

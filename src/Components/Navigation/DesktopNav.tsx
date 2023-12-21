@@ -17,7 +17,7 @@ export const DesktopNav = () => {
       <div className={s.navBackground}></div>
       <div className={s.navWrp}>
         <div className={s.logo}>
-          <p>AGROTK</p>
+          <img className={s.logoImg} src='./src/assets/logo.png' alt='Logo' />
         </div>
         <ul className={s.linksList}>
           <NavLink
@@ -60,16 +60,6 @@ export const DesktopNav = () => {
           >
             {currentLangData[1].nav[4]}
           </NavLink>
-          {/* <NavLink */}
-          {/* to='/prices' */}
-          {/* className={({ isActive }) => */}
-          {/* isActive */}
-          {/* ? `${s.activeLink} ${s.link} ${g.yellow}` */}
-          {/* : `${s.link} ${g.white}` */}
-          {/* } */}
-          {/* > */}
-          {/* {currentLangData[1].nav[5]} */}
-          {/* </NavLink> */}
           <NavLink
             to='/contacts'
             className={({ isActive }) =>

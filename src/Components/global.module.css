@@ -1,6 +1,9 @@
 .white {
   color: #fff;
 }
+p {
+  letter-spacing: 1px;
+}
 
 .yellow {
   color: #e1d48e;
@@ -81,4 +84,31 @@
 
 .innerListItem {
   margin-left: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .multiTextContainer {
+    font-size: 18px;
+  }
+  .textContainerChildsWrp {
+    margin: 10px 30px;
+  }
+  .TextContainerText {
+    font-size: 18px;
+  }
+  p {
+    letter-spacing: 1.3px;
+  }
+  .pagesTitle {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  .multiTextContainer {
+    font-size: 22px;
+  }
+  .textContainerChildsWrp {
+    margin: 20px 50px;
+  }
 }

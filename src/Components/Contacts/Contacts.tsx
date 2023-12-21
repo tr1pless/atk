@@ -28,7 +28,7 @@ export const Contacts = () => {
                 className={g.backButton}
                 rev={true}
                 to={'/prices'}
-                nav={5}
+                nav={4}
               />
               <PageButton className={g.nextButton} to={'/pp'} nav={7} />
             </div>

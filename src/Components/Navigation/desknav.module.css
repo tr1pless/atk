@@ -1,10 +1,21 @@
 .navigation {
+  overflow: hidden;
   position: absolute;
   height: min-content;
   left: 0;
   top: 0;
   width: 100vw;
   font-family: 'Russo One', sans-serif;
+}
+
+.logo {
+  z-index: 2;
+  margin: 0;
+}
+.logoImg {
+  margin: -95px auto -100px 0px;
+  width: 300px;
+  height: 270px;
 }
 .navBackground {
   z-index: 1;
@@ -34,18 +45,8 @@
   background: #e1d48e;
 }
 
-.logo {
-  color: #f4fbf4;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  z-index: 2;
-  position: relative;
-  margin: 0 90px 0 130px;
-}
-
 .link {
+  white-space: nowrap;
   position: relative;
   z-index: 2;
   font-size: 22px;
@@ -55,8 +56,6 @@
   text-transform: uppercase;
 }
 
-.link:hover {
-}
 .activeLink {
   font-size: 26px;
 }
@@ -68,9 +67,46 @@
   background: none;
   border: none;
   transition: 0.3s;
-  margin: auto 130px auto auto;
+  margin: auto 130px auto 50px;
+  text-transform: uppercase;
 }
 
 .langBtn:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+  .link {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .activeLink {
+    font-size: 16px;
+  }
+
+  .logoImg {
+    margin: -95px -75px -100px -50px;
+  }
+  .langBtn {
+    margin: auto auto auto 16px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
+  .link {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  .activeLink {
+    font-size: 22px;
+  }
+
+  .logoImg {
+    margin: -95px -75px -100px -50px;
+  }
+  .langBtn {
+    margin: auto auto auto 12px;
+    font-size: 20px;
+  }
 }

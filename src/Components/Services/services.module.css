@@ -20,4 +20,102 @@
   text-align: center;
   font-size: 28px;
   width: 100%;
+  justify-items: stretch;
+  justify-content: space-between;
+}
+
+.linksWrp {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.euronextLink {
+  display: block;
+  width: 320px;
+  height: 94px;
+  background-image: url(../../assets/euronext.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+.linkContainer {
+  padding: 5px;
+  border: 3px solid #e1d48e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linksTitle {
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin: 0 10px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 850px) {
+  .servicesItemList {
+    display: grid;
+    grid-template-columns: 44% 44%;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px;
+    gap: 28px 8px;
+    grid-template-areas:
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . ';
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+  }
+  .innerListItem {
+    font-size: 24px;
+  }
+
+  .linksTitle {
+    font-size: 16px;
+  }
+  .euronextLink {
+    width: 150px;
+    height: 42px;
+  }
+  .linksWrp {
+    margin-top: 28px;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1400px) {
+  .euronextLink {
+    width: 150px;
+    height: 42px;
+  }
+  .linksTitle {
+    font-size: 24px;
+  }
+  .servicesItemList {
+    display: grid;
+    grid-template-columns: 44% 44%;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px;
+    gap: 28px 4px;
+    grid-template-areas:
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . '
+      '. . ';
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+  }
+  .linksWrp {
+    margin-top: 68px;
+  }
 }
