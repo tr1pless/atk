@@ -118,4 +118,26 @@
   .linksWrp {
     margin-top: 68px;
   }
+  .innerListItem {
+    font-size: 20px;
+  }
+  .serviceTitle {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .euronextLink {
+    width: 100px;
+    height: 27px;
+  }
+  .innerListItem {
+    font-size: 18px;
+  }
+  .linksTitle {
+    margin-right: 4px;
+  }
+  .serviceTitle {
+    font-size: 40px;
+  }
 }

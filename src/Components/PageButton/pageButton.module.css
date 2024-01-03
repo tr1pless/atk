@@ -10,6 +10,9 @@
   align-items: center;
   position: relative;
 }
+.pbSpan {
+  padding: 0;
+}
 
 .buttonTxt {
   font-family: Baloo Bhai;
@@ -21,6 +24,12 @@
   margin: 5px;
   transition: all 0.5s;
 }
+.arrowSvg {
+  width: 50px;
+  height: 37px;
+  margin: 2px 5px;
+  margin-bottom: 5px;
+}
 
 .pageButton:hover .buttonTxt {
   margin-right: 20px;
@@ -30,6 +39,24 @@
 @media screen and (min-width: 2000px) {
   .buttonTxt {
     font-size: 60px;
+    margin-top: 12px;
+  }
+  .arrowSvg {
+    width: 80px;
+    height: 67px;
+    margin: 2px 5px;
+    margin-bottom: 5px;
+  }
+  .pageButton {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .buttonTxt {
+    font-size: 32px;
+    margin-right: 0px;
+    margin-top: 10px;
   }
 }
 
@@ -38,7 +65,31 @@
     font-size: 28px;
     margin-right: 0px;
   }
-  .buttonSvg {
-    width: 38px;
+}
+
+@media screen and (max-width: 1200px) {
+  .buttonTxt {
+    font-size: 32px;
+    margin-right: 0px;
+    margin-top: 8px;
+  }
+  .arrowSvg {
+    width: 45px;
+    height: 32px;
+    margin: 2px 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactsLink {
+    font-size: 20px;
+  }
+  .pageButton {
+    height: 40px;
+  }
+  .arrowSvg {
+    width: 30px;
+    height: 25px;
+    margin: 2px 5px;
   }
 }
