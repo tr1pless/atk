@@ -40,5 +40,20 @@ h3 {
   background-image: url(../../assets/ppBg.jpg);
 }
 
-.mapWrp {
+@media screen and (max-width: 1100px) {
+  .h2Title {
+    font-size: 30px;
+  }
+  .ppWrp {
+    flex-direction: column;
+  }
+  .ppTextWrp {
+    margin: 32px auto 32px auto;
+  }
+  .mapWrp {
+    width: 100%;
+  }
+  .gMap {
+    width: 100%;
+  }
 }

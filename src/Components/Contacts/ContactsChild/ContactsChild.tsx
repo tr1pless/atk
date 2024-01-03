@@ -14,6 +14,7 @@ export const ConctactChild = () => {
   const buh = currentLangData[1].contacts.buh
   const office = currentLangData[1].contacts.office
   const rek = currentLangData[1].contacts.rek
+  const mobileData = useSelector((state: RootState) => state.counter.mobileData)
 
   return (
     <div className={s.contactsChildContainer}>
@@ -55,7 +56,10 @@ export const ConctactChild = () => {
               {buh.title}
             </h2>
           </div>
-          <div style={{ paddingLeft: '40px' }} className={`${s.textWrp} `}>
+          <div
+            style={mobileData ? { paddingLeft: '0' } : { paddingLeft: '40px' }}
+            className={`${s.textWrp} `}
+          >
             <div className={s.ccText}>
               <span>{PersonSvg}</span>
               <p>{buh.name}</p>
@@ -97,26 +101,26 @@ export const ConctactChild = () => {
           </div>
           <div className={`${s.textWrp} ${s.rekWrp}`}>
             <div className={`${s.ccText} ${s.AAnames} ${s.textWithoutSpan}`}>
-              <p>{rek.sia}</p>
+              <p className={s.rekText}>{rek.sia}</p>
             </div>
             <div className={`${s.ccText} ${s.textWithoutSpan}`}>
-              <p>{rek.reg}</p>
+              <p className={s.rekText}>{rek.reg}</p>
             </div>
             <div className={`${s.ccText} ${s.textWithoutSpan}`}>
-              <p>{rek.pvn}</p>
+              <p className={s.rekText}>{rek.pvn}</p>
             </div>
             <div className={`${s.ccText} ${s.textWithoutSpan}`}>
               {/* <span>{LocationSvg}</span> */}
-              <p>{rek.adress}</p>
+              <p className={s.rekText}>{rek.adress}</p>
             </div>
             <div className={`${s.ccText} ${s.textWithoutSpan}`}>
-              <p>{rek.bank}</p>
+              <p className={s.rekText}>{rek.bank}</p>
             </div>
             <div className={`${s.ccText} ${s.textWithoutSpan}`}>
-              <p>{rek.iban}</p>
+              <p className={s.rekText}>{rek.iban}</p>
             </div>
             <div className={`${s.ccText} ${s.textWithoutSpan}`}>
-              <p>{rek.mail}</p>
+              <p className={s.rekText}>{rek.mail}</p>
             </div>
           </div>
         </div>

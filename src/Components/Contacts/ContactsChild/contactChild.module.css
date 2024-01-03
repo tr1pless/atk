@@ -67,14 +67,57 @@ p {
 .rekWrp {
   margin-left: 85px;
 }
+@media screen and (max-width: 1400px) {
+  .contactsChildContainer {
+    flex-direction: column;
+    word-wrap: break-word;
+  }
+  .stateContainer,
+  .companyContainer {
+    max-width: 100%;
+  }
+  .ccTitles {
+    font-size: 40px;
+  }
+  .textWithoutSpan {
+    margin: 15px 0 0;
+  }
+  .rekWrp {
+    margin-left: 40px;
+  }
+}
 
 @media screen and (max-width: 850px) {
-  .ccText {
-  }
   .contactsChildContainer {
     flex-direction: column;
   }
-  .stateContainer {
-    max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+  .AAnames {
+    font-size: 24px;
+  }
+  .ccText {
+    font-size: 20px;
+  }
+  .textWithoutSpan {
+    font-size: 28px;
+  }
+  .rekText {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rekText {
+    font-size: 16px;
+  }
+  .AAnames {
+    font-size: 20px;
+  }
+  .ccText {
+    font-size: 16px;
+  }
+  .textWithoutSpan {
+    font-size: 22px;
   }
 }

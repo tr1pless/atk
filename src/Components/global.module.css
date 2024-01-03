@@ -104,11 +104,16 @@ p {
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1400px) {
+@media screen and (max-width: 1500px) and (min-width: 800px) {
   .multiTextContainer {
     font-size: 22px;
   }
   .textContainerChildsWrp {
     margin: 20px 50px;
+  }
+}
+@media screen and (max-width: 600px) and (max-width: 1200px) {
+  .textContainerChildsWrp {
+    margin: 8px 12px;
   }
 }

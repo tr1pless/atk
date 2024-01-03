@@ -8,6 +8,8 @@
       "6": "KONTAKTI",
       "7": "Pieņemšanas punkti"
     },
+    "ppBtn": "P. PUNKTI",
+    "main": "Vienmēr centīsimies atrast optimālāko sadarbības modeli un noteikti atradīsim kompromisu lai strādātu ilgstoši un produktīvi.",
     "about": {
       "title1": "Par Mums",
       "text1": [
@@ -108,48 +110,230 @@
       "phone2": "+371 29985545"
     }
   },
-  "Rus": {
+  "rus": {
     "nav": {
       "1": "ГЛАВНАЯ",
       "2": "О НАС",
-      "3": "АКТУАЛЬНОЕ",
-      "4": "УСЛУГИ",
-      "5": "ЦЕНЫ",
+      "3": "АКТУАЛЬНО",
+      "4": "НАШИ УСЛУГИ",
       "6": "КОНТАКТЫ",
       "7": "ПУНКТЫ ПРИЕМА"
     },
+    "ppBtn": "П. ПРИЕМА",
+
+    "main": "Мы всегда постараемся найти наиболее оптимальную модель сотрудничества и обязательно найдём компромисс, чтобы работать долго и продуктивно.",
+
     "about": {
-      "title1": "Par Mums",
-      "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
-      "title2": "Kāpēc izvēlēties sadarbību ar mums?",
+      "title1": "О нас",
+      "text1": [
+        "Наша компания, основанная в 1996 году, с момента своего основания занимается в основном импортом и экспортом, торговлей зерном и рапсом. С увеличением количества выращиваемых в Латвии сельскохозяйственных культур мы полностью к этому адаптировались и обеспечиваем торговлю и другими культурами, как при покупке сельскохозяйственных культур в хозяйствах, так и при обеспечении животноводов кормовой продукцией."
+      ],
+      "title2": "Почему мы?",
       "text2": [
-        "Saņemsiet apmaksu par produkciju norunātā laikā.",
-        "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
-        "Esam dinamiski jautājumos par jūsu saistību izpildi.",
-        "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
+        "Вы получите оплату за продукцию в оговоренный срок",
+        "Мы оперативно решим Ваши потребности в вопросах реализации урожая.",
+        "Мы динамичны в вопросах выполнения Ваших обязательств",
+        "Мы всегда настроены на долгосрочное сотрудничество"
       ]
+    },
+    "services": {
+      "pageTitle": "Наши услуги",
+      "title1": "Предлагаем",
+      "mw": "ПШЕНИЦА",
+      "rs": "РАПС",
+      "text1": [
+        "Вывоз урожая с вашего склада",
+        "Транспортные услуги",
+        "Заключение договоров до и после сбора урожая",
+        "Услуги по предварительной обработке зерна, рапса на складах наших партнеров по сотрудничеству",
+        "И т. д."
+      ],
+      "title2": "Мы покупаем/продаем",
+      "text2": [
+        "Пшеница",
+        "Ячмень",
+        "Рожь",
+        "Овес",
+        "Тритикале",
+        "Гречиха",
+        "Тмин",
+        "Рапс",
+        "Желтый горох",
+        "Фасоль полевая",
+        "Черный горох (большой и мелкий)",
+        "Рапсовые жмых и шрот",
+        "Кукуруза (зерно)",
+        "Минеральные удобрения",
+        "И т.д."
+      ]
+    },
+    "contacts": {
+      "pageTitle": "Наши контакты",
+      "andrejs": {
+        "name": "Andrejs Samohvalovs",
+        "mail": "andrejs@atk.lv (LV,RUS,ESP,DE)",
+        "phone": "Чл. Правления, Менеджер по продажам"
+      },
+      "aigars": {
+        "name": "Aigars Samohvalovs",
+        "mail": "roy17@inbox.lv, samohvalovsaigars88@gmail.com (LV,RUS,ENG)",
+        "phone": "Консультант по продажам +371 29985545"
+      },
+      "buh": {
+        "title": "Бухгалтерия",
+
+        "name": "Inese Zeime",
+        "mail": "ipbfinanses@gmail.com",
+        "phone": "+371 26661123"
+      },
+      "office": {
+        "title": "Офис",
+        "adress": "Адрес: Kauliņu komplekss, Augstkalnes pagasts, Dobeles novads.",
+        "mail": "info@atk.lv",
+        "phone": "Номер телефона +371 63081234, fax +371 63081234"
+      },
+      "rek": {
+        "title": "Реквизиты",
+        "sia": "SIA AGROTIRDZNIECĪBAS KOMPĀNIJA",
+        "reg": "Рег.нр. 40003302398",
+        "pvn": "Ном. НДС. LV40003302398 ",
+        "adress": "Āres, Augstkalnes pagasts, Dobeles novads, LV-3709",
+        "bank": "Банк AS SEB banka’",
+        "iban": "Номер счета: LV84UNLA0050013584189",
+        "mail": "Эл. почта: info@atk.lv, samohvalovsaigars88@gmail.com"
+      }
+    },
+    "form": {
+      "name": "Ваше имя",
+      "number": "Номер телефона",
+      "mail": "Эл. почта",
+      "text": "Ваше сообщение",
+      "button": "Отправить"
+    },
+    "pp": {
+      "pageTitle": "Пункты приема",
+      "sia": "SIA A-HARVEST",
+      "text": {
+        "1": "Kauliņu komplekss",
+        "2": "Augstkalnes pag.",
+        "3": "Dobeles nov.",
+        "4": "56.410189, 23.356588"
+      },
+      "phone1": "+371 28742613",
+      "phone2": "+371 29985545"
     }
   },
-  "Eng": {
+  "eng": {
     "nav": {
-      "1": "MAIN",
+      "1": "HOME",
       "2": "ABOUT US",
-      "3": "ACTUAL",
-      "4": "SERVICES",
-      "5": "PRICELIST",
+      "3": "WHATS NEW?",
+      "4": "OUR SERVICES",
       "6": "CONTACTS",
-      "7": "Acceptance points"
+      "7": "WAREHOUSES"
+    },
+    "ppBtn": "WAREHOUSES",
+
+    "main": "We will always try to find the optimal cooperation model and will definitely find a compromise in order to work for a long time and productively.",
+
+    "about": {
+      "title1": "ABOUT US",
+      "text1": [
+        "Our company was founded in 1996, has been dealing mainly with import and export of grain and rapeseed trade since its inception. With the increase in the number of crops grown in Latvia, we have fully adapted to it and ensure the trade of other crops as well, both in the purchase of crops from farms and in the provision of fodder production for livestock farmers."
+      ],
+      "title2": "Why to choose us?",
+      "text2": [
+        "You will receive payment for the production at the agreed time.",
+        "We will promptly solve your needs in matters of harvest realization.",
+        "We are dynamic in matters regarding the fulfillment of your obligations.",
+        "We are always inclined towards long-term cooperation"
+      ]
+    },
+    "services": {
+      "pageTitle": "Our services",
+      "title1": "We can offer",
+      "mw": "WHEAT",
+      "rs": "RAEPSEED",
+      "text1": [
+        "Harvest collection from your warehouse.",
+        "Transport services.",
+        "Conclusion of contracts before and after harvest.",
+        "Grain, rapeseed pre-processing services in the warehouse of our cooperation partners.",
+        "Etc."
+      ],
+      "title2": "We are buying/selling",
+      "text2": [
+        "Wheat",
+        "Barley",
+        "Rye",
+        "Oats",
+        "Triticale",
+        "Buckwheat",
+        "Cumin seeds",
+        "Rapeseed",
+        "Yellow peas",
+        "Field beans",
+        "Black peas (large and small)",
+        "Rapeseed meal and cake",
+        "Corn (grain)",
+        "Mineral fertilizers",
+        "Etc."
+      ]
+    },
+    "contacts": {
+      "pageTitle": "Contacts",
+      "andrejs": {
+        "name": "Andrejs Samohvalovs",
+        "mail": "andrejs@atk.lv (LV,RUS,ESP,DE)",
+        "phone": "CEO, sales manager."
+      },
+      "aigars": {
+        "name": "Aigars Samohvalovs",
+        "mail": "roy17@inbox.lv, samohvalovsaigars88@gmail.com (LV,RUS,ENG)",
+        "phone": "Sales assistant +371 29985545"
+      },
+      "buh": {
+        "title": "Bookeeping",
+
+        "name": "Inese Zeime",
+        "mail": "ipbfinanses@gmail.com",
+        "phone": "+371 26661123"
+      },
+      "office": {
+        "title": "Office",
+        "adress": "Address: Kauliņu komplekss, Augstkalnes pagasts, Dobeles novads.",
+        "mail": "info@atk.lv",
+        "phone": "Phone number +371 63081234, fax +371 63081234"
+      },
+      "rek": {
+        "title": "Company details",
+        "sia": "SIA AGROTIRDZNIECĪBAS KOMPĀNIJA",
+        "reg": "Reg. no. 40003302398",
+        "pvn": "VAT no. LV40003302398 ",
+        "adress": "Āres, Augstkalnes pagasts, Dobeles novads, LV-3709",
+        "bank": "Bank AS SEB banka’",
+        "iban": "Acc. no.: LV84UNLA0050013584189",
+        "mail": "Email: info@atk.lv, samohvalovsaigars88@gmail.com"
+      }
+    },
+    "form": {
+      "name": "Your name",
+      "number": "Phone number",
+      "mail": "Email",
+      "text": "Your message",
+      "button": "Submit"
+    },
+    "pp": {
+      "pageTitle": "Warehouses",
+      "sia": "SIA A-HARVEST",
+      "text": {
+        "1": "Kauliņu komplekss",
+        "2": "Augstkalnes pag.",
+        "3": "Dobeles nov.",
+        "4": "56.410189, 23.356588"
+      },
+      "phone1": "+371 28742613",
+      "phone2": "+371 29985545"
     }
-  },
-  "about": {
-    "title1": "Par Mums",
-    "text1": "Mūsu uzņēmums kas dibināts 1996. gadā, no tā pirmsākumiem nodarbojas galvenokārt graudu un rapšu tirdzniecību importu un eksportu. Palielinoties Latvijā audzēto kultūru skaitam esam tam pilnvērtīgi pielāgojušies un nodrošinām arī citu kultūru tirdziecību, kā rāžas iepirkšanā no zemnieku saimniecībām, tā arī dzen lopbarības produkcijas nodrošināšanā lopkopjiem.",
-    "title2": "Kāpēc izvēlēties sadarbību ar mums?",
-    "text2": [
-      "Saņemsiet apmaksu par produkciju norunātā laikā.",
-      "Operatīvi atrisināsim jūsu vajadzības ražas realizācijas jautājumos.",
-      "Esam dinamiski jautājumos par jūsu saistību izpildi.",
-      "Vienmēr esam tendēti uz ilgtermiņa sadarbību."
-    ]
   }
 }

@@ -13,16 +13,18 @@ export const Pp = () => {
   const title = currentLangData[1].pp.pageTitle
   const ppData = currentLangData[1].pp
   const text = ppData.text
+  const mobileData = useSelector((state: RootState) => state.counter.mobileData)
+
   return (
     <div className={`${g.background} ${s.ppContainer}`}>
       <TextContainer
         title={title}
-        fontSize={80}
+        fontSize={mobileData ? 36 : 63}
         marginValue={'0 auto 0 60px'}
         children={
           <>
             <div className={s.ppWrp}>
-              <div>
+              <div className={s.ppTextWrp}>
                 <h2 className={`${g.yellow} ${s.h2Title}`}>{ppData.sia}</h2>
                 <p className={`${g.white} ${s.ppText}`}>{text[1]}</p>
                 <p className={`${g.white} ${s.ppText}`}>{text[2]}</p>
