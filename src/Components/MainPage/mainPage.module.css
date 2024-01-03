@@ -45,3 +45,10 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+  .mainText {
+    font-size: 28px;
+    text-align: center;
+    padding: 350px 20px 0px;
+  }
+}

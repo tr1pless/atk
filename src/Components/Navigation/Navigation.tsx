@@ -10,21 +10,28 @@ import { Pp } from '../Pp/Pp'
 import { useSelector } from 'react-redux'
 import { RootState } from '../store/store'
 import { useDispatch } from 'react-redux'
-import { mobile } from '../store/counterSlice'
+import { mobile, smallDevice } from '../store/counterSlice'
 
 export const Navigation = () => {
   const mobileData = useSelector((state: RootState) => state.counter.mobileData)
+  const sdData = useSelector((state: RootState) => state.counter.sdData)
+
   const dispatch = useDispatch()
 
   const [windowSize, setWindowSize] = useState(getWindowSize())
 
   useEffect(() => {
-    if (windowSize.innerWidth < 1000) {
+    if (windowSize.innerWidth < 500) {
+      dispatch(smallDevice(true))
+      dispatch(mobile(false))
+      console.log('sd on', mobileData, sdData)
+    } else if (windowSize.innerWidth < 1000 && windowSize.innerWidth > 500) {
+      dispatch(smallDevice(false))
       dispatch(mobile(true))
-      console.log(windowSize.innerWidth, mobile)
+      console.log('mobile on', mobileData, sdData)
     } else {
       dispatch(mobile(false))
-      console.log(windowSize.innerWidth, mobile)
+      dispatch(smallDevice(false))
     }
   }, [windowSize.innerWidth])
 
@@ -46,7 +53,7 @@ export const Navigation = () => {
 
   return (
     <>
-      {mobileData ? <MobileNav /> : <DesktopNav />}
+      {mobileData || sdData ? <MobileNav /> : <DesktopNav />}
       <Routes>
         <Route path='/' element={<MainPage />} />
         <Route path='/main' element={<MainPage />} />
