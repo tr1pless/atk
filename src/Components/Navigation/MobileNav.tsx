@@ -18,14 +18,10 @@ export const MobileNav = () => {
     <>
       <div className={s.logo}>
         <div className={s.logoBackground}></div>
-        <img className={s.logoImg} src='./src/assets/logo.png' alt='Logo' />
+        <img className={s.logoImg} src='/logo.png' alt='Logo' />
       </div>
 
-      <button
-        // style={!hide ? { display: 'none' } : { display: 'block' }}
-        className={s.burgerBtn}
-        onClick={() => setHide(!hide)}
-      >
+      <button className={s.burgerBtn} onClick={() => setHide(!hide)}>
         <svg
           className={s.burgerSvg}
           xmlns='http://www.w3.org/2000/svg'
@@ -48,11 +44,7 @@ export const MobileNav = () => {
       >
         <div className={s.mobNavWrp}>
           <div className={s.mobileMenuLeftSection}>
-            <img
-              className={s.certImg}
-              src='./src/assets/cert.png'
-              alt='Certificate'
-            />
+            <img className={s.certImg} src='/cert.png' alt='Certificate' />
             <button className={s.burgerBtnInner} onClick={() => setHide(!hide)}>
               <svg
                 className={s.burgerSvgInner}

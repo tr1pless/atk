@@ -37,7 +37,7 @@ h3 {
 }
 
 .ppContainer {
-  background-image: url(../../assets/ppBg.jpg);
+  background-image: url(/ppBg.jpg);
 }
 
 @media screen and (max-width: 1100px) {

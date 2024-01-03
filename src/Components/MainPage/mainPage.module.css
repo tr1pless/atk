@@ -9,7 +9,7 @@
 }
 
 .background {
-  background-image: url(../../assets/mainBg.jpg);
+  background-image: url(/mainBg.jpg);
 }
 
 .mainPageBtn {

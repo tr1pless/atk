@@ -17,7 +17,7 @@ export const DesktopNav = () => {
       <div className={s.navBackground}></div>
       <div className={s.navWrp}>
         <div className={s.logo}>
-          <img className={s.logoImg} src='./src/assets/logo.png' alt='Logo' />
+          <img className={s.logoImg} src='/logo.png' alt='Logo' />
         </div>
         <ul className={s.linksList}>
           <NavLink
