@@ -8,11 +8,14 @@ export const counterSlice = createSlice({
   initialState: {
     value: 0,
     mobileData: true,
+    sdData: true,
   },
   reducers: {
     mobile: (state, action) => {
       state.mobileData = action.payload
-      console.log(action.payload, state.mobileData)
+    },
+    smallDevice: (state, action) => {
+      state.sdData = action.payload
     },
     language: (state) => {
       if (state.value !== 2) {
@@ -24,5 +27,5 @@ export const counterSlice = createSlice({
   },
 })
 
-export const { mobile, language } = counterSlice.actions
+export const { mobile, language, smallDevice } = counterSlice.actions
 export default counterSlice.reducer
