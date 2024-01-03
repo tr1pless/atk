@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import s from './about.module.css'
 import g from '../global.module.css'
 import { TextContainer } from '../TextContainer/TextContainer'
@@ -16,7 +15,6 @@ export const About = () => {
   const text = currentLangData[1].about.text1
   const text2 = currentLangData[1].about.text2
   const mobileData = useSelector((state: RootState) => state.counter.mobileData)
-  const sdData = useSelector((state: RootState) => state.counter.sdData)
 
   return (
     <div className={`${g.background} ${s.aboutContainer}`}>
