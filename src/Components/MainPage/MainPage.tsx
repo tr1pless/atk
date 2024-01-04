@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { PageButton } from '../PageButton/PageButton'
 import g from '../global.module.css'
 import s from './mainPage.module.css'
