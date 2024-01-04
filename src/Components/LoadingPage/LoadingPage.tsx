@@ -1,4 +1,3 @@
-import g from '../global.module.css'
 import s from './loadingPage.module.css'
 
 export const LoadingPage = () => {

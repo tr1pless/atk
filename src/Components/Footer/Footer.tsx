@@ -35,11 +35,7 @@ export const Footer = () => {
           {currentLangData[1].nav[7]}
         </NavLink>
       </ul>
-      <img
-        className={s.certImg}
-        src='./src/assets/cert.png'
-        alt='Certificate'
-      />
+      <img className={s.certImg} src='/cert.png' alt='Certificate' />
       <ul className={s.footerContactsList}>
         <li className={`${s.footerContacts} ${g.white}`}>
           SIA Agrotirdzniecības kompānija
