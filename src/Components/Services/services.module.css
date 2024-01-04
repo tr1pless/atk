@@ -1,9 +1,15 @@
-.servicesContainer {
-  background-image: url(../../assets/services.jpg);
-}
-
 .serviceTitle {
   margin: 140px auto 0 10%;
+}
+.servicesBg {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .servicesItemList {
