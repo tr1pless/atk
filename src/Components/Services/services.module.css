@@ -158,14 +158,28 @@
   }
   .servicesItemList {
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
-    gap: 0px 0px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+
+    gap: 2px 0px;
   }
   .innerListItem {
     font-size: 16px;
   }
   .linksTitle {
     margin-right: 4px;
+  }
+  .serviceTitle {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .euronextLink {
+    width: 100px;
+    height: 27px;
+  }
+  .innerListItem {
+    font-size: 14px;
   }
   .serviceTitle {
     font-size: 40px;

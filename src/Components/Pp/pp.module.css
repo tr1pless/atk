@@ -55,5 +55,26 @@ h3 {
   }
   .gMap {
     width: 100%;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .h2Title,
+  .h3Title {
+    font-size: 2rem;
+  }
+  .ppTextWrp {
+    margin: 20px auto 20px auto;
+  }
+  .mapWrp {
+    width: 100%;
+  }
+  .gMap {
+    min-width: 200px;
+    min-height: 200px;
+  }
+  .ppText {
+    font-size: 1.8rem;
   }
 }

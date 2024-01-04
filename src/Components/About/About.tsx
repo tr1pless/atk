@@ -22,10 +22,10 @@ export const About = () => {
         marginValue={'0 auto 0 5%'}
         title={title}
         children={<p className={g.TextContainerText}>{text}</p>}
-        fontSize={mobileData ? 4 : 4}
+        fontSize={mobileData ? 3.5 : 4}
       />
       <TextContainer
-        fontSize={mobileData ? 1.3 : 1.5}
+        fontSize={mobileData ? 1.2 : 1.5}
         marginValue={'0 auto 0 5%'}
         title={currentLangData[1].about.title2}
         children={

@@ -58,7 +58,6 @@ p {
 }
 
 .globalBtnsWrp {
-  width: 100%;
   display: flex;
   flex-direction: row;
   margin: 50px auto;
@@ -119,6 +118,14 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+  .TextContainerText {
+    font-size: 16px;
+    .multiTextContainer {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 390px) {
   .TextContainerText {
     font-size: 16px;
     .multiTextContainer {
