@@ -102,11 +102,22 @@
   }
   .pageButton {
     height: 35px;
-    margin: 8px;
+    margin: 4px;
   }
   .arrowSvg {
     width: 27px;
     height: 20px;
     margin: 2px 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .pageButton {
+    margin: 2px;
+  }
+  .arrowSvg {
+    width: 23px;
+    height: 18px;
+    margin: 2px 3px;
   }
 }

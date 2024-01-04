@@ -3,7 +3,7 @@
 }
 .servicesBg {
   position: fixed;
-  width: auto;
+  width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
