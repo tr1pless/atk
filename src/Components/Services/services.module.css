@@ -120,6 +120,7 @@
   }
   .innerListItem {
     font-size: 20px;
+    white-space: pre-wrap;
   }
   .serviceTitle {
     font-size: 52px;
@@ -140,6 +141,14 @@
   .serviceTitle {
     font-size: 40px;
   }
+  .linksWrp {
+    flex-direction: column;
+  }
+  .linkContainer {
+    width: 50%;
+    max-width: 80%;
+    margin-bottom: 12px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -153,7 +162,7 @@
     gap: 0px 0px;
   }
   .innerListItem {
-    font-size: 18px;
+    font-size: 16px;
   }
   .linksTitle {
     margin-right: 4px;

@@ -43,3 +43,10 @@ fieldset {
     margin-top: 120px;
   }
 }
+
+@media screen and (max-width: 500) {
+  .aboutTitle {
+    font-size: 20px;
+    color: red;
+  }
+}
