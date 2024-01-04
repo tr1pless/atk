@@ -18,8 +18,8 @@ export const TextContainer = ({
       <div className={s.textContainer}>
         <fieldset>
           <legend
-            style={{ margin: `${marginValue}`, fontSize: `${fontSize}px` }}
-            className={`${s.containerTitle} ${g.yellow} ${g.pagesTitle}`}
+            style={{ margin: `${marginValue}`, fontSize: `${fontSize}rem` }}
+            className={`${s.containerTitle} ${g.yellow} ${g.pagesTitle} `}
           >
             {title}
           </legend>

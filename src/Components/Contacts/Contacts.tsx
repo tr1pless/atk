@@ -19,7 +19,7 @@ export const Contacts = () => {
     <div className={`${g.background} ${s.contactsContainer}`}>
       <TextContainer
         title={title}
-        fontSize={mobileData ? 46 : 80}
+        fontSize={mobileData ? 3 : 3}
         marginValue={'0 auto 0 60px'}
         children={
           <>
