@@ -60,6 +60,7 @@ p {
 .globalBtnsWrp {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   margin: 50px auto;
   width: 100%;
 }
@@ -114,6 +115,9 @@ p {
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .textContainerChildsWrp {
     margin: 8px 12px;
+  }
+  .globalBtnsWrp {
+    margin: 30px auto;
   }
 }
 
