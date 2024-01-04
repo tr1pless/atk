@@ -6,7 +6,7 @@
   border: 1px solid #e1d48e;
   background: rgba(22, 23, 21, 0.5);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
 }
