@@ -59,10 +59,10 @@ h3 {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
   .h2Title,
   .h3Title {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .ppTextWrp {
     margin: 20px auto 20px auto;
@@ -75,6 +75,6 @@ h3 {
     min-height: 200px;
   }
   .ppText {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }

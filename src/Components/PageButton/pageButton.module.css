@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   .contactsLink {
     font-size: 1.4rem;
     margin-bottom: 8px;

@@ -129,7 +129,7 @@ p {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
   .AAcontainer {
     padding: 4px;
     margin: 0 -20px;
