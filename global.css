@@ -26,3 +26,9 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  * {
+    font-size: 11px;
+  }
+}

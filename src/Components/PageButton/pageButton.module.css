@@ -59,14 +59,6 @@
     margin-top: 10px;
   }
 }
-
-@media screen and (max-width: 800px) {
-  .buttonTxt {
-    font-size: 28px;
-    margin-right: 0px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .buttonTxt {
     font-size: 32px;
@@ -80,16 +72,41 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .contactsLink {
-    font-size: 20px;
+@media screen and (max-width: 800px) {
+  .buttonTxt {
+    font-size: 28px;
+    margin-right: 0px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .buttonTxt {
+    font-size: 2rem;
+    margin-right: 0px;
+  }
+
   .pageButton {
     height: 40px;
   }
   .arrowSvg {
     width: 30px;
     height: 25px;
+    margin: 2px 5px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .contactsLink {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  .pageButton {
+    height: 35px;
+    margin: 8px;
+  }
+  .arrowSvg {
+    width: 27px;
+    height: 20px;
     margin: 2px 5px;
   }
 }

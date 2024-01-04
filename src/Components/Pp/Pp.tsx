@@ -19,7 +19,7 @@ export const Pp = () => {
     <div className={`${g.background} ${s.ppContainer}`}>
       <TextContainer
         title={title}
-        fontSize={mobileData ? 36 : 63}
+        fontSize={mobileData ? 2.1 : 2.5}
         marginValue={'0 auto 0 60px'}
         children={
           <>
