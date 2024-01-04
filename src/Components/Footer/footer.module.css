@@ -77,13 +77,6 @@
 @media screen and (max-width: 500px) {
   .footerLinks,
   .footerContacts {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .footerLinks,
-  .footerContacts {
     font-size: 12px;
   }
 }
