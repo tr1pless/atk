@@ -42,7 +42,7 @@ export const Services = () => {
           </h1>
           <TextContainer
             marginContainer={'20px auto 0'}
-            fontSize={mobileData ? 2.5 : 2.5}
+            fontSize={mobileData ? 2.2 : 2.5}
             title={title}
             marginValue={'0 100px 0 auto'}
             children={
@@ -60,7 +60,7 @@ export const Services = () => {
           />
           <TextContainer
             marginContainer={'20px auto 0'}
-            fontSize={mobileData ? 2 : 2}
+            fontSize={mobileData ? 1.7 : 2}
             title={title2}
             marginValue={mobileData ? '0 20px 0 auto' : '0 100px 0 auto'}
             children={
