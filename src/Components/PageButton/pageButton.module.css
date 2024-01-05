@@ -1,6 +1,6 @@
 .pageButton {
   box-shadow: inset 0px 0px 17px 3px rgb(0 0 0 / 77%);
-
+  margin: 0 4px 0 4px;
   width: min-content;
   height: 56px;
   border: 1px solid #e1d48e;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 600px) {
   .buttonTxt {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 0px;
   }
 

@@ -4,3 +4,7 @@
   justify-content: space-between;
   background-image: url(/conctactsBg.jpg);
 }
+
+.contactsBtn {
+  margin: 20px auto;
+}
