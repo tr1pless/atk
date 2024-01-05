@@ -35,8 +35,8 @@ export const Contacts = () => {
         <>
           <TextContainer
             title={title}
-            fontSize={mobileData ? 2.7 : 3}
-            marginValue={'0 auto 0 60px'}
+            fontSize={mobileData ? 2.1 : 3}
+            marginValue={mobileData ? '0 auto 0 20px' : '0 auto 0 60px'}
             children={
               <>
                 <ConctactChild />
