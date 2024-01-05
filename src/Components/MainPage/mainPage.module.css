@@ -33,6 +33,11 @@
     padding: 200px 20px 0px;
     text-align: center;
   }
+  .mainBg {
+    height: 120vh;
+    margin-top: -20vh;
+    width: 120vw;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1400px) {
@@ -41,6 +46,7 @@
     text-align: center;
   }
 }
+
 @media screen and (max-width: 500px) {
   .mainText {
     font-size: 28px;
