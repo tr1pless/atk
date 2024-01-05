@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import s from './mobnav.module.css'
 import g from '../global.module.css'
 import { NavLink } from 'react-router-dom'
@@ -10,10 +10,20 @@ import { RootState } from '../store/store'
 export const MobileNav = () => {
   const [hide, setHide] = useState(true)
   const dispatch = useDispatch()
+  const menu = useRef<HTMLDivElement>(null)
   const lang = useSelector((state: RootState) => state.counter.value)
   const btnArr = ['Rus', 'Eng', 'Lat']
   const data = Object.entries(langJson)
   const currentLangData: any = data[lang]
+
+  useEffect(() => {
+    const handleClickOutside = (event: any) => {
+      if (!menu?.current?.contains(event.target)) {
+        setHide(true)
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+  }, [menu])
   return (
     <>
       <div className={s.logo}>
@@ -37,7 +47,7 @@ export const MobileNav = () => {
         </svg>
       </button>
       <div
-        // style={{ transition: 'all 0.6s' }}
+        ref={menu}
         className={
           hide == true ? `${s.hideNav} ${s.navigation}` : `${s.navigation}`
         }

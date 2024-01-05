@@ -21,7 +21,7 @@ export const MainPage = () => {
     <div className={`${g.background} `}>
       <img
         onLoad={handleLoad}
-        className={g.backgroundImg}
+        className={`${g.backgroundImg} ${s.mainBg}`}
         src='/mainBg.jpg'
         alt='mainBg'
       />
