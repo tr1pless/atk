@@ -102,7 +102,7 @@ export const Services = () => {
               nav={3}
               to={'/actual'}
             />
-            <PageButton className={g.nextButton} nav={6} to={'/prices'} />
+            <PageButton className={g.nextButton} nav={6} to={'/pp'} />
           </div>
         </>
       )}
