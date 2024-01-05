@@ -35,8 +35,8 @@ export const PageButton = ({ nav, to, className, rev, pp, cClass }: Props) => {
         className={s.pbSpan}
         style={
           rev
-            ? { transform: 'rotate(180deg)', marginBottom: '5px' }
-            : { transform: 'rotate(0)' }
+            ? { transform: 'rotate(180deg)', marginBottom: '7px' }
+            : { transform: 'rotate(0)', marginTop: '7px' }
         }
         // className={s.buttonSvg}
       >

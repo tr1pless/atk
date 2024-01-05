@@ -6,16 +6,18 @@ interface Props {
   marginValue: string
   children: React.ReactNode
   fontSize?: number
+  marginContainer?: string
 }
 export const TextContainer = ({
   title,
   marginValue,
   children,
   fontSize,
+  marginContainer,
 }: Props) => {
   return (
     <>
-      <div className={s.textContainer}>
+      <div style={{ margin: `${marginContainer}` }} className={s.textContainer}>
         <fieldset>
           <legend
             style={{ margin: `${marginValue}`, fontSize: `${fontSize}rem` }}

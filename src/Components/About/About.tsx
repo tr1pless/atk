@@ -29,13 +29,15 @@ export const About = () => {
       ) : (
         <>
           <TextContainer
+            marginContainer={'120px auto 0'}
             marginValue={'0 auto 0 5%'}
             title={title}
             children={<p className={g.TextContainerText}>{text}</p>}
-            fontSize={mobileData ? 3.5 : 4}
+            fontSize={mobileData ? 2.5 : 3}
           />
           <TextContainer
-            fontSize={mobileData ? 1.2 : 1.5}
+            marginContainer={'20px auto '}
+            fontSize={mobileData ? 1 : 1.4}
             marginValue={'0 auto 0 5%'}
             title={currentLangData[1].about.title2}
             children={

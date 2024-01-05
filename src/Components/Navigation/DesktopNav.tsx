@@ -61,7 +61,7 @@ export const DesktopNav = () => {
             {currentLangData[1].nav[4]}
           </NavLink>
           <NavLink
-            to='/contacts'
+            to='/pp'
             className={({ isActive }) =>
               isActive
                 ? `${s.activeLink} ${s.link} ${g.yellow}`
@@ -71,7 +71,7 @@ export const DesktopNav = () => {
             {currentLangData[1].nav[6]}
           </NavLink>
           <NavLink
-            to='/pp'
+            to='/contacts'
             className={({ isActive }) =>
               isActive
                 ? `${s.activeLink} ${s.link} ${g.yellow}`

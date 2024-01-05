@@ -40,22 +40,14 @@ export const Contacts = () => {
             children={
               <>
                 <ConctactChild />
-                <div className={g.globalBtnsWrp}>
-                  <PageButton
-                    className={`${g.backButton} `}
-                    rev={true}
-                    to={'/prices'}
-                    nav={4}
-                    cClass={true}
-                  />
-                  <PageButton
-                    className={`${g.nextButton} `}
-                    pp={true}
-                    to={'/pp'}
-                    nav={7}
-                    cClass={true}
-                  />
-                </div>
+                <PageButton
+                  className={`${g.backButton} ${s.contactsBtn} `}
+                  to={'/pp'}
+                  rev={true}
+                  pp={true}
+                  nav={6}
+                  cClass={true}
+                />
               </>
             }
           />

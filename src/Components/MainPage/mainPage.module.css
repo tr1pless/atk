@@ -1,15 +1,22 @@
 .mainText {
   font-family: 'Russo One', sans-serif;
-  font-size: 60px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  padding: 350px 50px 50px;
+  padding: 100px 50px 0;
+}
+.mainTextWrp {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .mainPageBtn {
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 @media screen and (min-width: 2000px) {
@@ -21,17 +28,22 @@
     min-height: 100vh;
   }
   .mainText {
-    padding: 0;
     text-align: center;
     font-size: 80px;
   }
 }
 
+@media screen and (min-width: 800px) {
+  .mainText {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .mainText {
-    font-size: 32px;
-    padding: 100px 20px 0px;
+    font-size: 2.5rem;
     text-align: center;
+    padding: 0;
   }
   .mainBg {
     height: 120vh;
@@ -42,15 +54,16 @@
 
 @media screen and (min-width: 800px) and (max-width: 1400px) {
   .mainText {
-    font-size: 48px;
+    font-size: 2.5rem;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 500px) {
   .mainText {
-    font-size: 28px;
+    font-size: 2rem;
     text-align: center;
-    padding: 250px 20px 0px;
+    padding: 0;
+    text-align: center;
   }
 }

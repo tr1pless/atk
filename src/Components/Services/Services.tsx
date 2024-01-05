@@ -30,7 +30,7 @@ export const Services = () => {
       <img
         onLoad={handleLoad}
         className={s.servicesBg}
-        src='/services.jpg'
+        src='/servicesBg.jpg'
         alt='servicesBg'
       />
       {loading ? (
@@ -41,7 +41,8 @@ export const Services = () => {
             {servicesTitle}
           </h1>
           <TextContainer
-            fontSize={mobileData ? 3 : 3.5}
+            marginContainer={'20px auto 0'}
+            fontSize={mobileData ? 2.5 : 2.5}
             title={title}
             marginValue={'0 100px 0 auto'}
             children={
@@ -58,7 +59,8 @@ export const Services = () => {
             }
           />
           <TextContainer
-            fontSize={mobileData ? 2.2 : 2.5}
+            marginContainer={'20px auto 0'}
+            fontSize={mobileData ? 2 : 2}
             title={title2}
             marginValue={mobileData ? '0 20px 0 auto' : '0 100px 0 auto'}
             children={
