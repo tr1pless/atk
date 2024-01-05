@@ -30,7 +30,7 @@
 @media screen and (max-width: 800px) {
   .mainText {
     font-size: 32px;
-    padding: 200px 20px 0px;
+    padding: 100px 20px 0px;
     text-align: center;
   }
   .mainBg {
@@ -51,6 +51,6 @@
   .mainText {
     font-size: 28px;
     text-align: center;
-    padding: 350px 20px 0px;
+    padding: 250px 20px 0px;
   }
 }
